@@ -34,5 +34,6 @@ Para a lambda de redirecionamento, o processo é:
 >[OBS]
 >Conseguimos capturar essas request porque implementamos a interface RequestHandler da AWS
 >Sobreescrevemos o método requisitado e retornamos nossas responses em Map pois assim é solicitado
+>
 >Para conseguir implementar essa interface, necessário dependencias da AmazonSDK, AWS Lambda Java Core, AWS Lambda Java Log4j2
 >Usamos a biblioteca Jackson também para a conversão de objetos Java  
